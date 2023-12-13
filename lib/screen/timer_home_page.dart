@@ -85,6 +85,7 @@ class TimerHomePage extends StatelessWidget {
                         onPressed: () => countdownTimer.startBreak(false),
                       ),
                     ),
+
                   ],
                 ),
               ),
@@ -137,6 +138,20 @@ class TimerHomePage extends StatelessWidget {
                       ),
                     ),
                   ),
+                ],
+              ),
+              Row(
+                children: [
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Align(
+                        alignment: Alignment.center,
+                        child: Text('Dikerjakan oleh Lailatul Farihah, NIM 21201211'),
+                      )
+                    ),
+                  ),
+
                 ],
               ),
             ],
